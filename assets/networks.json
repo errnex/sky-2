@@ -1,0 +1,52 @@
+{
+  "networks": {
+    "pharos": {
+      "name": "Pharos Network",
+      "chainId": 1,
+      "rpc": "https://rpc.pharos.network",
+      "explorer": "https://explorer.pharos.network",
+      "currency": "PHA"
+    },
+    "ethereum": {
+      "name": "Ethereum Mainnet",
+      "chainId": 1,
+      "rpc": "https://eth.pharos.network",
+      "explorer": "https://etherscan.io",
+      "currency": "ETH"
+    },
+    "polygon": {
+      "name": "Polygon",
+      "chainId": 137,
+      "rpc": "https://polygon.pharos.network",
+      "explorer": "https://polygonscan.com",
+      "currency": "MATIC"
+    }
+  },
+  "supportedWallets": [
+    {
+      "name": "Rabby Wallet",
+      "id": "rabby",
+      "icon": "rabby"
+    },
+    {
+      "name": "MetaMask",
+      "id": "metamask",
+      "icon": "metamask"
+    },
+    {
+      "name": "OKX Wallet",
+      "id": "okx",
+      "icon": "okx"
+    },
+    {
+      "name": "Phantom",
+      "id": "phantom",
+      "icon": "phantom"
+    },
+    {
+      "name": "Trust Wallet",
+      "id": "trust",
+      "icon": "trust"
+    }
+  ]
+}
